@@ -1,0 +1,19 @@
+# Build files will appear after compilation docker build
+
+dist
+node_modules
+build
+coverage
+
+# Envs, readme and dev files - not used during docker build
+
+.git
+.gitignore
+Dockerfile
+.dockerignore
+.vscode
+.idea
+*.swp
+README.md
+.DS_Store
+test/
